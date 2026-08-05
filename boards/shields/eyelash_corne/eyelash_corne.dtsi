@@ -136,14 +136,14 @@ nice_view_spi: &spi0 {
 };
 
 &pwm0 {
-    status = "disabled";
+    status = "okay";
     pinctrl-0 = <&pwm0_default>;
     pinctrl-1 =<&pwm0_sleep>;
     pinctrl-names = "default", "sleep";
 };
 
 &spi3 {
-    status = "disabled";
+    status = "okay";
     compatible = "nordic,nrf-spim";
     pinctrl-0 = <&spi3_default>;
     pinctrl-1 = <&spi3_sleep>;
