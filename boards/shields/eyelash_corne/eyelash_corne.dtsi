@@ -143,7 +143,7 @@ nice_view_spi: &spi0 {
 };
 
 &spi3 {
-    status = "siaabled";
+    status = "disabled";
     compatible = "nordic,nrf-spim";
     pinctrl-0 = <&spi3_default>;
     pinctrl-1 = <&spi3_sleep>;
