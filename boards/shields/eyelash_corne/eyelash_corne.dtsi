@@ -25,7 +25,7 @@
     EXT_POWER {
         compatible = "zmk,ext-power-generic";
         control-gpios = <&gpio0 13 GPIO_ACTIVE_HIGH>;
-        init-delay-ms = <50>;
+        init-delay-ms = <200>;
     };
 
     left_encoder: encoder_left {
